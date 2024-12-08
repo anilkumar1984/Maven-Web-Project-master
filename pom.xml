@@ -6,12 +6,13 @@
   <groupId>com.nandihal</groupId>
   <artifactId>Maven-Project</artifactId>
   <packaging>war</packaging>
-  <version>3.4-SNAPSHOT</version>
+  <version>1.0-RELEASE</version>
   <name>Maven Web Project</name>
   <description>Maven Web Project for Java Project</description>
 
 
 
+	
   <properties>
 	    <spring.version>4.1.4.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
@@ -26,6 +27,7 @@
   <dependencies>
   
 <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+	  <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
@@ -205,9 +207,7 @@
             </executions>
           </plugin>
         </plugins>
-<!--		
-		<finalName>Tushar-19062019</finalName>
--->	
+
       </build>
     </profile>
   </profiles>
