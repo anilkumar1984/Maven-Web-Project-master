@@ -122,8 +122,8 @@
 
 <repository>
 <id>nexus</id>
-<name>releaserepo</name>
-<url>http://localhost:8081/repository/maven-release-jan-repo/</url>
+<name>maven-releases</name>
+<url>http://35.154.114.162:8081/repository/maven-releases</url>
 </repository>
 
 <snapshotRepository>
